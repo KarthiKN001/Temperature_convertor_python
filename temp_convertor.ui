@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>497</width>
+      <height>266</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>TEMPERATURE  CONVERTOR</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSplitter" name="splitter_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QLineEdit" name="input_field"/>
+       <widget class="QLineEdit" name="result_field"/>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QSplitter" name="splitter_6">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <widget class="QPushButton" name="ktoc_btn">
+              <property name="text">
+               <string>K to C</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="ctof_btn">
+              <property name="text">
+               <string>C to F</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="ftok_btn">
+              <property name="text">
+               <string>F to K</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSplitter" name="splitter_5">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <widget class="QPushButton" name="ktof_btn">
+              <property name="text">
+               <string>K to F</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="ctok_btn">
+              <property name="text">
+               <string>C to K</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="ftoc_btn">
+              <property name="text">
+               <string>F to C</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="clear_btn">
+           <property name="text">
+            <string>CLEAR</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QSplitter" name="splitter">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QPushButton" name="one_btn">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="four_btn">
+          <property name="text">
+           <string>4</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="seven_btn">
+          <property name="text">
+           <string>7</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="minus_btn">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSplitter" name="splitter_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QPushButton" name="two_btn">
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="five_btn">
+          <property name="text">
+           <string>5</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="eight_btn">
+          <property name="text">
+           <string>8</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="dot_btn">
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSplitter" name="splitter_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QPushButton" name="three_btn">
+          <property name="text">
+           <string>3</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="six_btn">
+          <property name="text">
+           <string>6</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="nine_btn">
+          <property name="text">
+           <string>9</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="zero_btn">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QSplitter" name="splitter_7">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>K - Kelvin</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>C - Celsius</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>F - Fahrenheit</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSplitter" name="splitter_8">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>Jokerman</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Joker&quot;s</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <family>Jokerman</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>           Brand</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>565</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
